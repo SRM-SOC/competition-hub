@@ -1,0 +1,32 @@
+name: "⭐ Onboarding"
+description: "Add yourself to CONTRIBUTORS.md — start here, earn 5 free points"
+labels: ["onboarding", "easy", "open"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Welcome to SRM-SOC! 🎉
+        This is your **first task**. Add your row to `CONTRIBUTORS.md` and earn **5 points**.
+        This issue is **open to all** — one PR per person.
+
+  - type: markdown
+    attributes:
+      value: |
+        ## What to do
+        1. Fork the `competition-hub` repo
+        2. Create a branch: `docs/issue-1-your-github-username`
+        3. Add your row to the table in `CONTRIBUTORS.md`
+        4. Raise a PR with title: `docs: #1 add your-github-username to contributors`
+
+        ## Row format
+        ```
+        | Full Name | [@github](https://github.com/github) | Xth Year | Fun fact under 10 words |
+        ```
+
+        ## Rules
+        - Add your row at the **bottom** of the table
+        - Do **not** modify anyone else's row
+        - One PR per person — duplicates will be closed
+
+        ## Points
+        **5 points** awarded on merge ⚡
