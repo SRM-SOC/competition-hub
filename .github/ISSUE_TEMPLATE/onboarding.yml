@@ -10,13 +10,29 @@ body:
         This is your **first task**. Add your row to `CONTRIBUTORS.md` and earn **5 points**.
         This issue is **open to all** — one PR per person.
 
+  - type: input
+    id: github_username
+    attributes:
+      label: Your GitHub username
+      placeholder: e.g. johndoe
+    validations:
+      required: true
+
+  - type: input
+    id: college_year
+    attributes:
+      label: Your college year
+      placeholder: e.g. 2nd Year, 3rd Year
+    validations:
+      required: true
+
   - type: markdown
     attributes:
       value: |
-        ## What to do
+        ## Steps
         1. Fork the `competition-hub` repo
         2. Create a branch: `docs/issue-1-your-github-username`
-        3. Add your row to the table in `CONTRIBUTORS.md`
+        3. Add your row to the bottom of the table in `CONTRIBUTORS.md`
         4. Raise a PR with title: `docs: #1 add your-github-username to contributors`
 
         ## Row format
@@ -25,9 +41,8 @@ body:
         ```
 
         ## Rules
-        - Add your row at the **bottom** of the table
-        - Do **not** modify anyone else's row
+        - Add at the **bottom** of the table only
+        - Do **not** touch anyone else's row
         - One PR per person — duplicates will be closed
 
-        ## Points
-        **5 points** awarded on merge ⚡
+        **Points: 5 pts awarded on merge ⚡**
