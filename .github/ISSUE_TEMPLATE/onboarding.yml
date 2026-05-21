@@ -1,5 +1,6 @@
 name: "⭐ Onboarding"
 description: "Add yourself to CONTRIBUTORS.md — start here, earn 5 free points"
+title: "[ONBOARDING] Add your-github-username to CONTRIBUTORS.md"
 labels: ["onboarding", "easy", "open"]
 body:
   - type: markdown
