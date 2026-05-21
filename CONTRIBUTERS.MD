@@ -6,7 +6,7 @@ Welcome to the SRM-SOC contributors list! This is your **first task** — add yo
 
 ## How to Add Yourself
 
-1. Claim the [onboarding issue](https://github.com/YOUR_ORG/competition-hub/issues/1) on Discord using `/claim issue:1 repo:competition-hub`
+1. Claim the [onboarding issue](https://github.com/SRM-SOC/competition-hub/issues/1) on Discord using `/claim issue:1 repo:competition-hub`
 2. Fork this repo and create a branch: `docs/issue-1-your-name`
 3. Add your row to the table below in this exact format
 4. Raise a PR with title: `docs: #1 add your-github-username to contributors`
