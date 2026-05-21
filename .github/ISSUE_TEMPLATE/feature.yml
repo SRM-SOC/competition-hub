@@ -1,0 +1,22 @@
+name: Feature Request
+description: A new feature to be implemented
+labels: ["feature"]
+body:
+  - type: textarea
+    id: description
+    label: Feature description
+    validations:
+      required: true
+  - type: textarea
+    id: spec
+    label: Detailed spec / acceptance criteria
+    validations:
+      required: true
+  - type: dropdown
+    id: difficulty
+    label: Difficulty
+    options:
+      - medium
+      - hard
+    validations:
+      required: true
